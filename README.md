@@ -1,4 +1,4 @@
-# Please guys follw this instruction to work with this repositor 
+# Please guys follow this instruction to work with this repository
 # ............................................................
 
 #  git config --global user.name "King Kong"
