@@ -23,7 +23,7 @@
 # git add .  
 # git add --all
 # git rm --cached my-file.ts
-# git commit -m "Message"
+# git commit -m "Message We all to have this clear"
 #.......................................................................
 Push to a REPOSITORY
 #.......................................................................
