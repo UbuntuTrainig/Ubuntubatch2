@@ -1,11 +1,13 @@
-# Please guys follw this instruction to work with this repositor 
+# Please guys follow this instruction to work with this repository
 # ............................................................
 
-#  git config --global user.name "King Kong"
+-Global Configuration of account 
+
+##  git config --global user.name "King Kong"
 # ............................................................
-#  git config --global user.email "king-kong@gmail.com"
+##    git config --global user.email "king-kong@gmail.com"
 # ............................................................
-#  git config --global color.ui true
+##   git config --global color.ui true
 #.......................................................................
 # git config --list
   user.name=King Kong
