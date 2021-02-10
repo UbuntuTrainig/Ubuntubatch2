@@ -1,0 +1,45 @@
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ git cat-file -p 7b83c29
+warning: refname '7b83c29' is ambiguous.
+tree f67922c3b80194f0ecd4571b82455d858c649917
+parent b223152ba5e80b058f71a716a25f3fbbb18f6d99
+author john.abdul <john.abdul.ubuntuafrika@gmail.com> 1610964086 +0000
+committer john.abdul <john.abdul.ubuntuafrika@gmail.com> 1610964086 +0000
+
+first commit in the BR-1
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ touch file6.js
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ git commit -m "initial"
+On branch 7b83c29
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file6.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ git add .
+warning: LF will be replaced by CRLF in file.txt.
+The file will have its original line endings in your working directory
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ git commit -m "intial"
+[7b83c29 1f301f2] intial
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 file6.js
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ git hash-object ../file3.txt
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop/myPractice (7b83c29)
+$ cd ..
+
+UBUNTU@DESKTOP-QBIKUBV MINGW64 ~/desktop
